@@ -26,7 +26,7 @@ public class SwaggerConfig {
                 )
                 .select()
                 .apis(RequestHandlerSelectors.basePackage("com.api.customersupport"))
-                .paths(PathSelectors.regex("/resolvers.*"))
+                .paths(PathSelectors.regex("/.*"))
                 .build()
                 .apiInfo(metaInfo());
     }
