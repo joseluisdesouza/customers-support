@@ -17,14 +17,10 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("/resolvers")
+@RequestMapping("/")
 @Api(value = "API REST CUSTOMER SUPPORT")
 public class ResolverController {
 
-    @Autowired
-    private ResolverRepository resolverRepository;
-    @Autowired
-    private OrderServiceRepository orderServiceRepository;
     @Autowired
     private ResolverService resolverService;
 
