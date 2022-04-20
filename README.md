@@ -21,6 +21,14 @@ As seguintes ferramentas foram usadas na construção do projeto:
 ### Peço desculpas mas não consegui subir a aplicação com o docker, infelizmente tive um problema que devido ao tempo não consegui resolver
 ### O ideal seria clonar o repositorio e startar normalmente
 
+### git clone https://github.com/joseluisdesouza/customers-support.git
+## - Clone em uma pasta de sua escolha
+## - Abra o projeto em uma ide
+## - Acesse http://localhost:8080/swagger-ui/index.html#/ ou se prefirir usar um Postman ou Insomnia
+
+### Link Postman https://www.postman.com/downloads/
+### Link Insomnia https://insomnia.rest/download
+
 ### Construir imagem
     docker build -t customer-support .
 ### Subir aplicação
